@@ -5,7 +5,7 @@ public static int binary(int num[],int target){
     int end=num.length-1;
 
     while(start<=end){
-        int mid=(start+end)/2;
+        int mid=(start+ end)/2;
 
         if(num[mid]==target){
             return mid;
